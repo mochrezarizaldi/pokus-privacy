@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Boldonse";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("fonts/boldonse-latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Host Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-display: block;
+  src: url("fonts/host-grotesk-latin-300-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Host Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("fonts/host-grotesk-latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Host Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url("fonts/host-grotesk-latin-500-normal.woff2") format("woff2");
+}
+
+:root {
+  --blue: #285596;
+  --cream: #f6edd6;
+  --ink: #0f0f11;
+  --ink-title: #111111;
+  --ink-2: #393939;
+  --muted: #8f8f8f;
+  --line: #eeeeee;
+  --soft: #f7f7f7;
+  --white: #ffffff;
+  --yellow: #ffdd00;
+  --danger: #c3012a;
+  --font-display: "Boldonse", Impact, "Arial Narrow", sans-serif;
+  --font-body: "Host Grotesk", -apple-system, "Segoe UI", Roboto, sans-serif;
+}
